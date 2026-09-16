@@ -1,0 +1,103 @@
+{
+  "slides": 6,
+  "content_slides": 4,
+  "font": "Inter",
+  "presenter": "[Presenter name(s)]",
+  "course": "[Course]",
+  "date": "[Presentation date]",
+  "spoken_words": 675,
+  "words_per_slide": [
+    47,
+    150,
+    156,
+    161,
+    161
+  ],
+  "estimated_minutes_at_130_wpm": 5.19,
+  "sources": {
+    "alvarez": {
+      "short": "Álvarez-Godos et al., 2023",
+      "doi": "10.3389/fpsyg.2023.1216692",
+      "authors": "Álvarez-Godos, M., Ferreira, C., & Vieira, M.-J.",
+      "year": "2023",
+      "title": "A systematic review of actions aimed at university students with ADHD.",
+      "journal": "Frontiers in Psychology",
+      "volume": "14",
+      "issue": "",
+      "pages": "Article 1216692."
+    },
+    "anastopoulos": {
+      "short": "Anastopoulos et al., 2021",
+      "doi": "10.1037/ccp0000553",
+      "authors": "Anastopoulos, A. D., Langberg, J. M., Eddy, L. D., Silvia, P. J., & Labban, J. D.",
+      "year": "2021",
+      "title": "A randomized controlled trial examining CBT for college students with ADHD.",
+      "journal": "Journal of Consulting and Clinical Psychology",
+      "volume": "89",
+      "issue": "1",
+      "pages": "21–33."
+    },
+    "blasey": {
+      "short": "Blasey et al., 2023",
+      "doi": "10.1177/00332941221078011",
+      "authors": "Blasey, J., Wang, C., & Blasey, R.",
+      "year": "2023",
+      "title": "Accommodation use and academic outcomes for college students with disabilities.",
+      "journal": "Psychological Reports",
+      "volume": "126",
+      "issue": "4",
+      "pages": "1891–1909."
+    },
+    "dupaul": {
+      "short": "DuPaul et al., 2017",
+      "doi": "10.1111/ldrp.12143",
+      "authors": "DuPaul, G. J., Dahlstrom-Hakki, I., Gormley, M. J., Fu, Q., Pinho, T. D., & Banerjee, M.",
+      "year": "2017",
+      "title": "College students with ADHD and LD: Effects of support services on academic performance.",
+      "journal": "Learning Disabilities Research & Practice",
+      "volume": "32",
+      "issue": "4",
+      "pages": "246–256."
+    },
+    "gormley": {
+      "short": "Gormley et al., 2019",
+      "doi": "10.1177/1087054715623046",
+      "authors": "Gormley, M. J., DuPaul, G. J., Weyandt, L. L., & Anastopoulos, A. D.",
+      "year": "2019",
+      "title": "First-year GPA and academic service use among college students with and without ADHD.",
+      "journal": "Journal of Attention Disorders",
+      "volume": "23",
+      "issue": "14",
+      "pages": "1766–1779."
+    },
+    "nu": {
+      "short": "Nazarbayev University, n.d.",
+      "authors": "Nazarbayev University.",
+      "year": "n.d.",
+      "title": "Disability & learning needs.",
+      "url": "https://nu.edu.kz/students/disability-and-special-learning-needs-support/"
+    },
+    "romhild": {
+      "short": "Römhild & Hollederer, 2024",
+      "doi": "10.1080/08856257.2023.2195074",
+      "authors": "Römhild, A., & Hollederer, A.",
+      "year": "2024",
+      "title": "Effects of disability-related services, accommodations, and integration on academic success of students with disabilities in higher education: A scoping review.",
+      "journal": "European Journal of Special Needs Education",
+      "volume": "39",
+      "issue": "1",
+      "pages": "143–166."
+    },
+    "ross": {
+      "short": "Ross et al., 2026",
+      "doi": "10.1038/s44184-026-00196-4",
+      "authors": "Ross, F., Dommett, E. J., & Byrom, N.",
+      "year": "2026",
+      "title": "A systematic review of higher education-based interventions to support the mental health and wellbeing of neurodivergent students.",
+      "journal": "npj Mental Health Research",
+      "volume": "5",
+      "issue": "",
+      "pages": "Article 14."
+    }
+  }
+}
