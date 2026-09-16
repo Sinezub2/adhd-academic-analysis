@@ -22,7 +22,7 @@ Cover: `[Presenter name(s)]` · `[Course]` · `[Presentation date]`. Bracketed f
 
 ## Fonts and editing
 
-Inter Regular, SemiBold and Bold are packaged in `assets/fonts/` with the SIL Open Font License. Install them on another computer before editing to preserve wrapping. The PDF preview preserves the rendered appearance. The chart, text and shapes remain editable in PowerPoint.
+Inter Regular, SemiBold and Bold are packaged in `assets/fonts/` with the SIL Open Font License. Install them on another computer before editing to preserve wrapping. When exported through Keynote or PowerPoint, the PDF preview should preserve the rendered appearance. The chart, text and shapes remain editable in PowerPoint.
 
 ## Rebuild
 
