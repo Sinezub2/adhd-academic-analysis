@@ -1,0 +1,2 @@
+test_id,family,difference_per_SD,ci_low,ci_high,p,p_holm
+symptom_coefficient_contrast,primary,-3.8458752643088787,-5.997168374539234,-1.6945821540785242,0.00048428354675642926,0.0043585519208078636

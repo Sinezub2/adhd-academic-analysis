@@ -1,0 +1,9 @@
+graph,html,png,png_error
+adhd_severity_vs_academic_performance,True,True,
+inattention_vs_academic_performance,True,True,
+adhd_vs_academic_adjustment,True,True,
+inattention_vs_academic_adjustment,True,True,
+inattention_vs_adjustment_change,True,True,
+adhd_screening_vs_academic_performance,True,True,
+symptom_dimensions_vs_academic_performance,True,True,
+inattention_and_mental_health_symptoms,True,True,

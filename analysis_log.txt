@@ -1,0 +1,511 @@
+WORKBOOK INVENTORY
+ {
+  "archive_members": [
+    "ADHD.xlsx"
+  ],
+  "workbook_sha256": "84373cad739c5e315fd7a94c0fc98627936d1a9291265fca0a71545f4d561c3a",
+  "sheets": [
+    "Sheet1",
+    "Outliers"
+  ],
+  "main_shape": [
+    506,
+    110
+  ],
+  "outliers_shape_headerless": [
+    10,
+    111
+  ],
+  "cell_comments": 0,
+  "named_ranges": [],
+  "sheet_states": {
+    "Sheet1": "visible",
+    "Outliers": "visible"
+  },
+  "excel_error_counts": {
+    "Sheet1": 0,
+    "Outliers": 10
+  },
+  "duplicate_rows_main": 0,
+  "outliers_missing_course_marks": 10
+}
+
+SHAPE: (506, 110)
+
+ALL COLUMN NAMES
+ age
+sex
+specify
+home_language
+have_you_ever_experienced_any_mental_health_difficulties_or_symptoms_before_starting_university_e_g_in_primary_or_high_school
+if_yes_please_list_these_difficulties_and_or_symptoms
+if_you_have_ever_experienced_difficulties_and_or_symptoms_of_a_mental_illness_how_old_were_you_when_this_started
+have_you_ever_been_diagnosed_with_a_mental_illness
+if_you_have_been_diagnosed_formally_or_informally_please_list_the_diagnosis_diagnoses
+was_this_diagnosis_made_before_or_after_you_left_high_school
+if_you_have_been_diagnosed_with_a_mental_illness_at_what_age_was_this
+have_you_ever_used_prescribed_psychiatric_medication_for_a_mental_illness_or_symptoms_of_one
+are_you_currently_using_prescribed_psychiatric_medication_for_a_mental_illness_or_symptoms_of_one
+have_you_ever_been_to_therapy_or_counselling_for_a_mental_illness_or_symptoms_of_one
+are_you_currently_in_therapy_or_counselling_for_a_mental_illness_or_symptoms_of_one
+bdi1_item_1
+bdi1_item_2
+bdi1_item_3
+bdi1_item_4
+bdi1_item_5
+bdi1_item_6
+bdi1_item_7
+bdi1_item_8
+bdi1_item_9
+bdi1_item_10
+bdi1_item_11
+bdi1_item_12
+bdi1_item_13
+bdi1_item_14
+bdi1_item_15
+bdi1_item_16
+bdi1_item_17
+bdi1_item_18
+bdi1_item_19
+bdi1_item_20
+bdi1_item_21
+bdi1_total
+audit1_item_1
+audit1_item_2
+audit1_item_3
+audit1_item_4
+audit1_item_5
+audit1_item_6
+audit1_item_7
+audit1_item_8
+audit1_item_9
+audit1_total
+aas1_item_1
+aas1_item_2
+aas1_item_3
+aas1_item_4
+aas1_item_5
+aas1_item_6
+aas1_item_7
+aas1_item_8
+aas1_item_9
+aas1_total
+psy1004_grade
+nbt_completed
+nbt_year
+nbt_al
+nbt_math
+nbt_ql
+nbt_ave
+nbt_did_math
+nbt_alql_ave
+matric_mark
+asrs1_item_1
+asrs1_item_2
+asrs1_item_3
+asrs1_item_4
+asrs1_item_5
+asrs1_item_6
+asrs1_item_7
+asrs1_item_8
+asrs1_item_9
+asrs1_item_10
+asrs1_item_11
+asrs1_item_12
+asrs1_item_13
+asrs1_item_14
+asrs1_item_15
+asrs1_item_16
+asrs1_item_17
+asrs1_item_18
+asrs1_total.x
+bai1_item_1
+bai1_item_2
+bai1_item_3
+bai1_item_4
+bai1_item_5
+bai1_item_6
+bai1_item_7
+bai1_item_8
+bai1_item_9
+bai1_item_10
+bai1_item_11
+bai1_item_12
+bai1_item_13
+bai1_item_14
+bai1_item_15
+bai1_item_16
+bai1_item_17
+bai1_item_18
+bai1_item_19
+bai1_item_20
+bai1_item_21
+bai1_total
+asrs1_total.y
+aas_change
+
+DATA TYPES AND MISSING COUNTS
+                                                                                                                        column   dtype  missing  missing_percent  unique_nonmissing
+                                                                                                                          age   int64        0         0.000000                  5
+                                                                                                                          sex     str        0         0.000000                  3
+                                                                                                                      specify     str      495        97.826087                  4
+                                                                                                                home_language     str        0         0.000000                 24
+have_you_ever_experienced_any_mental_health_difficulties_or_symptoms_before_starting_university_e_g_in_primary_or_high_school     str        0         0.000000                  2
+                                                                        if_yes_please_list_these_difficulties_and_or_symptoms     str        9         1.778656                293
+             if_you_have_ever_experienced_difficulties_and_or_symptoms_of_a_mental_illness_how_old_were_you_when_this_started     str        0         0.000000                137
+                                                                           have_you_ever_been_diagnosed_with_a_mental_illness     str        0         0.000000                  3
+                                        if_you_have_been_diagnosed_formally_or_informally_please_list_the_diagnosis_diagnoses     str        0         0.000000                177
+                                                                 was_this_diagnosis_made_before_or_after_you_left_high_school     str        0         0.000000                  3
+                                                        if_you_have_been_diagnosed_with_a_mental_illness_at_what_age_was_this     str        0         0.000000                102
+                                 have_you_ever_used_prescribed_psychiatric_medication_for_a_mental_illness_or_symptoms_of_one     str        0         0.000000                  3
+                            are_you_currently_using_prescribed_psychiatric_medication_for_a_mental_illness_or_symptoms_of_one     str        0         0.000000                  3
+                                         have_you_ever_been_to_therapy_or_counselling_for_a_mental_illness_or_symptoms_of_one     str        0         0.000000                  3
+                                          are_you_currently_in_therapy_or_counselling_for_a_mental_illness_or_symptoms_of_one     str        0         0.000000                  3
+                                                                                                                  bdi1_item_1   int64        0         0.000000                  4
+                                                                                                                  bdi1_item_2   int64        0         0.000000                  4
+                                                                                                                  bdi1_item_3   int64        0         0.000000                  4
+                                                                                                                  bdi1_item_4   int64        0         0.000000                  4
+                                                                                                                  bdi1_item_5   int64        0         0.000000                  4
+                                                                                                                  bdi1_item_6   int64        0         0.000000                  4
+                                                                                                                  bdi1_item_7   int64        0         0.000000                  4
+                                                                                                                  bdi1_item_8   int64        0         0.000000                  4
+                                                                                                                  bdi1_item_9   int64        0         0.000000                  4
+                                                                                                                 bdi1_item_10   int64        0         0.000000                  4
+                                                                                                                 bdi1_item_11   int64        0         0.000000                  4
+                                                                                                                 bdi1_item_12   int64        0         0.000000                  4
+                                                                                                                 bdi1_item_13   int64        0         0.000000                  4
+                                                                                                                 bdi1_item_14   int64        0         0.000000                  4
+                                                                                                                 bdi1_item_15   int64        0         0.000000                  4
+                                                                                                                 bdi1_item_16   int64        0         0.000000                  4
+                                                                                                                 bdi1_item_17   int64        0         0.000000                  4
+                                                                                                                 bdi1_item_18   int64        0         0.000000                  4
+                                                                                                                 bdi1_item_19   int64        0         0.000000                  4
+                                                                                                                 bdi1_item_20   int64        0         0.000000                  4
+                                                                                                                 bdi1_item_21   int64        0         0.000000                  4
+                                                                                                                   bdi1_total   int64        0         0.000000                 48
+                                                                                                                audit1_item_1   int64        0         0.000000                  5
+                                                                                                                audit1_item_2   int64        0         0.000000                  5
+                                                                                                                audit1_item_3   int64        0         0.000000                  5
+                                                                                                                audit1_item_4   int64        0         0.000000                  5
+                                                                                                                audit1_item_5   int64        0         0.000000                  5
+                                                                                                                audit1_item_6   int64        0         0.000000                  5
+                                                                                                                audit1_item_7   int64        0         0.000000                  5
+                                                                                                                audit1_item_8   int64        0         0.000000                  3
+                                                                                                                audit1_item_9   int64        0         0.000000                  3
+                                                                                                                 audit1_total   int64        0         0.000000                 26
+                                                                                                                  aas1_item_1 float64        2         0.395257                  5
+                                                                                                                  aas1_item_2 float64        1         0.197628                  5
+                                                                                                                  aas1_item_3 float64        1         0.197628                  5
+                                                                                                                  aas1_item_4 float64        1         0.197628                  5
+                                                                                                                  aas1_item_5 float64        7         1.383399                  5
+                                                                                                                  aas1_item_6 float64        2         0.395257                  5
+                                                                                                                  aas1_item_7 float64        3         0.592885                  5
+                                                                                                                  aas1_item_8   int64        0         0.000000                  5
+                                                                                                                  aas1_item_9 float64        1         0.197628                  5
+                                                                                                                   aas1_total   int64        0         0.000000                 31
+                                                                                                                psy1004_grade   int64        0         0.000000                 58
+                                                                                                                nbt_completed     str        0         0.000000                  1
+                                                                                                                     nbt_year   int64        0         0.000000                  3
+                                                                                                                       nbt_al   int64        0         0.000000                 53
+                                                                                                                     nbt_math   int64        0         0.000000                 64
+                                                                                                                       nbt_ql   int64        0         0.000000                 64
+                                                                                                                      nbt_ave   int64        0         0.000000                 55
+                                                                                                                 nbt_did_math     str      216        42.687747                  2
+                                                                                                                 nbt_alql_ave float64        0         0.000000                 97
+                                                                                                                  matric_mark   int64        0         0.000000                 31
+                                                                                                                 asrs1_item_1   int64        0         0.000000                  5
+                                                                                                                 asrs1_item_2   int64        0         0.000000                  5
+                                                                                                                 asrs1_item_3   int64        0         0.000000                  5
+                                                                                                                 asrs1_item_4   int64        0         0.000000                  5
+                                                                                                                 asrs1_item_5   int64        0         0.000000                  5
+                                                                                                                 asrs1_item_6   int64        0         0.000000                  5
+                                                                                                                 asrs1_item_7   int64        0         0.000000                  5
+                                                                                                                 asrs1_item_8   int64        0         0.000000                  5
+                                                                                                                 asrs1_item_9   int64        0         0.000000                  5
+                                                                                                                asrs1_item_10   int64        0         0.000000                  5
+                                                                                                                asrs1_item_11   int64        0         0.000000                  5
+                                                                                                                asrs1_item_12   int64        0         0.000000                  5
+                                                                                                                asrs1_item_13   int64        0         0.000000                  5
+                                                                                                                asrs1_item_14   int64        0         0.000000                  5
+                                                                                                                asrs1_item_15   int64        0         0.000000                  5
+                                                                                                                asrs1_item_16   int64        0         0.000000                  5
+                                                                                                                asrs1_item_17   int64        0         0.000000                  5
+                                                                                                                asrs1_item_18   int64        0         0.000000                  5
+                                                                                                                asrs1_total.x   int64        0         0.000000                 59
+                                                                                                                  bai1_item_1   int64        0         0.000000                  4
+                                                                                                                  bai1_item_2   int64        0         0.000000                  4
+                                                                                                                  bai1_item_3   int64        0         0.000000                  4
+                                                                                                                  bai1_item_4   int64        0         0.000000                  4
+                                                                                                                  bai1_item_5   int64        0         0.000000                  4
+                                                                                                                  bai1_item_6   int64        0         0.000000                  4
+                                                                                                                  bai1_item_7   int64        0         0.000000                  4
+                                                                                                                  bai1_item_8   int64        0         0.000000                  4
+                                                                                                                  bai1_item_9   int64        0         0.000000                  4
+                                                                                                                 bai1_item_10   int64        0         0.000000                  4
+                                                                                                                 bai1_item_11   int64        0         0.000000                  4
+                                                                                                                 bai1_item_12   int64        0         0.000000                  4
+                                                                                                                 bai1_item_13   int64        0         0.000000                  4
+                                                                                                                 bai1_item_14   int64        0         0.000000                  4
+                                                                                                                 bai1_item_15   int64        0         0.000000                  4
+                                                                                                                 bai1_item_16   int64        0         0.000000                  4
+                                                                                                                 bai1_item_17   int64        0         0.000000                  4
+                                                                                                                 bai1_item_18   int64        0         0.000000                  4
+                                                                                                                 bai1_item_19   int64        0         0.000000                  4
+                                                                                                                 bai1_item_20   int64        0         0.000000                  4
+                                                                                                                 bai1_item_21   int64        0         0.000000                  4
+                                                                                                                   bai1_total   int64        0         0.000000                 58
+                                                                                                                asrs1_total.y float64        1         0.197628                 58
+                                                                                                                   aas_change float64      330        65.217391                 60
+
+BASIC DESCRIPTIVE STATISTICS
+                                                                                                                                count unique             top freq         mean        std       min       25%       50%       75%       max
+age                                                                                                                            506.0    NaN             NaN  NaN    18.428854   0.720202      18.0      18.0      18.0      19.0      22.0
+sex                                                                                                                              506      3          female  412          NaN        NaN       NaN       NaN       NaN       NaN       NaN
+specify                                                                                                                           11      4      non-binary    7          NaN        NaN       NaN       NaN       NaN       NaN       NaN
+home_language                                                                                                                    506     24         english  298          NaN        NaN       NaN       NaN       NaN       NaN       NaN
+have_you_ever_experienced_any_mental_health_difficulties_or_symptoms_before_starting_university_e_g_in_primary_or_high_school    506      2             yes  327          NaN        NaN       NaN       NaN       NaN       NaN       NaN
+if_yes_please_list_these_difficulties_and_or_symptoms                                                                            497    293             n/a   72          NaN        NaN       NaN       NaN       NaN       NaN       NaN
+if_you_have_ever_experienced_difficulties_and_or_symptoms_of_a_mental_illness_how_old_were_you_when_this_started                 506    137             n/a   77          NaN        NaN       NaN       NaN       NaN       NaN       NaN
+have_you_ever_been_diagnosed_with_a_mental_illness                                                                               506      3              no  296          NaN        NaN       NaN       NaN       NaN       NaN       NaN
+if_you_have_been_diagnosed_formally_or_informally_please_list_the_diagnosis_diagnoses                                            506    177             n/a  129          NaN        NaN       NaN       NaN       NaN       NaN       NaN
+was_this_diagnosis_made_before_or_after_you_left_high_school                                                                     506      3  not applicable  318          NaN        NaN       NaN       NaN       NaN       NaN       NaN
+if_you_have_been_diagnosed_with_a_mental_illness_at_what_age_was_this                                                            506    102             n/a  150          NaN        NaN       NaN       NaN       NaN       NaN       NaN
+have_you_ever_used_prescribed_psychiatric_medication_for_a_mental_illness_or_symptoms_of_one                                     506      3              no  268          NaN        NaN       NaN       NaN       NaN       NaN       NaN
+are_you_currently_using_prescribed_psychiatric_medication_for_a_mental_illness_or_symptoms_of_one                                506      3              no  314          NaN        NaN       NaN       NaN       NaN       NaN       NaN
+have_you_ever_been_to_therapy_or_counselling_for_a_mental_illness_or_symptoms_of_one                                             506      3              no  217          NaN        NaN       NaN       NaN       NaN       NaN       NaN
+are_you_currently_in_therapy_or_counselling_for_a_mental_illness_or_symptoms_of_one                                              506      3              no  379          NaN        NaN       NaN       NaN       NaN       NaN       NaN
+bdi1_item_1                                                                                                                    506.0    NaN             NaN  NaN     0.517787   0.803877       0.0       0.0       0.0       1.0       3.0
+bdi1_item_2                                                                                                                    506.0    NaN             NaN  NaN     0.478261   0.752897       0.0       0.0       0.0       1.0       3.0
+bdi1_item_3                                                                                                                    506.0    NaN             NaN  NaN     0.452569   0.775059       0.0       0.0       0.0       1.0       3.0
+bdi1_item_4                                                                                                                    506.0    NaN             NaN  NaN     0.849802   0.865837       0.0       0.0       1.0       1.0       3.0
+bdi1_item_5                                                                                                                    506.0    NaN             NaN  NaN     0.719368   0.837429       0.0       0.0       1.0       1.0       3.0
+bdi1_item_6                                                                                                                    506.0    NaN             NaN  NaN     0.454545   0.884917       0.0       0.0       0.0       1.0       3.0
+bdi1_item_7                                                                                                                    506.0    NaN             NaN  NaN     0.474308   0.778633       0.0       0.0       0.0       1.0       3.0
+bdi1_item_8                                                                                                                    506.0    NaN             NaN  NaN     0.992095   0.927008       0.0       0.0       1.0       2.0       3.0
+bdi1_item_9                                                                                                                    506.0    NaN             NaN  NaN     0.349802   0.627876       0.0       0.0       0.0       1.0       3.0
+bdi1_item_10                                                                                                                   506.0    NaN             NaN  NaN     0.952569   1.161138       0.0       0.0       0.0       2.0       3.0
+bdi1_item_11                                                                                                                   506.0    NaN             NaN  NaN     0.833992   0.931363       0.0       0.0       1.0       1.0       3.0
+bdi1_item_12                                                                                                                   506.0    NaN             NaN  NaN     0.790514   0.911743       0.0       0.0       1.0       1.0       3.0
+bdi1_item_13                                                                                                                   506.0    NaN             NaN  NaN     1.088933   1.050222       0.0       0.0       1.0       2.0       3.0
+bdi1_item_14                                                                                                                   506.0    NaN             NaN  NaN     0.614625   0.871839       0.0       0.0       0.0       1.0       3.0
+bdi1_item_15                                                                                                                   506.0    NaN             NaN  NaN     1.108696   0.821761       0.0       1.0       1.0       2.0       3.0
+bdi1_item_16                                                                                                                   506.0    NaN             NaN  NaN     1.241107   0.845003       0.0       1.0       1.0       2.0       3.0
+bdi1_item_17                                                                                                                   506.0    NaN             NaN  NaN     0.640316   0.742671       0.0       0.0       1.0       1.0       3.0
+bdi1_item_18                                                                                                                   506.0    NaN             NaN  NaN     1.088933   0.949203       0.0       0.0       1.0       2.0       3.0
+bdi1_item_19                                                                                                                   506.0    NaN             NaN  NaN     1.227273   0.895383       0.0       0.0       1.0       2.0       3.0
+bdi1_item_20                                                                                                                   506.0    NaN             NaN  NaN     1.065217   0.784564       0.0       1.0       1.0       1.0       3.0
+bdi1_item_21                                                                                                                   506.0    NaN             NaN  NaN     0.371542   0.801175       0.0       0.0       0.0       0.0       3.0
+bdi1_total                                                                                                                     506.0    NaN             NaN  NaN    16.312253  10.308572       0.0       9.0      15.0      23.0      58.0
+audit1_item_1                                                                                                                  506.0    NaN             NaN  NaN     1.144269   1.062845       0.0       0.0       1.0       2.0       4.0
+audit1_item_2                                                                                                                  506.0    NaN             NaN  NaN      0.62253   0.938614       0.0       0.0       0.0       1.0       4.0
+audit1_item_3                                                                                                                  506.0    NaN             NaN  NaN     0.567194   0.888001       0.0       0.0       0.0       1.0       4.0
+audit1_item_4                                                                                                                  506.0    NaN             NaN  NaN     0.187747   0.588948       0.0       0.0       0.0       0.0       4.0
+audit1_item_5                                                                                                                  506.0    NaN             NaN  NaN     0.067194   0.382062       0.0       0.0       0.0       0.0       4.0
+audit1_item_6                                                                                                                  506.0    NaN             NaN  NaN     0.452569   0.878074       0.0       0.0       0.0       1.0       4.0
+audit1_item_7                                                                                                                  506.0    NaN             NaN  NaN     0.294466   0.667676       0.0       0.0       0.0       0.0       4.0
+audit1_item_8                                                                                                                  506.0    NaN             NaN  NaN     0.324111   1.017516       0.0       0.0       0.0       0.0       4.0
+audit1_item_9                                                                                                                  506.0    NaN             NaN  NaN     0.142292   0.719949       0.0       0.0       0.0       0.0       4.0
+audit1_total                                                                                                                   506.0    NaN             NaN  NaN     3.802372   4.819564       0.0       0.0       2.0       6.0      28.0
+aas1_item_1                                                                                                                    504.0    NaN             NaN  NaN     3.484127   1.217723       1.0       2.0       4.0       4.0       5.0
+aas1_item_2                                                                                                                    505.0    NaN             NaN  NaN      1.89901   1.180067       1.0       1.0       1.0       3.0       5.0
+aas1_item_3                                                                                                                    505.0    NaN             NaN  NaN     3.405941   1.404204       1.0       2.0       4.0       5.0       5.0
+aas1_item_4                                                                                                                    505.0    NaN             NaN  NaN     2.772277   1.357527       1.0       2.0       3.0       4.0       5.0
+aas1_item_5                                                                                                                    499.0    NaN             NaN  NaN     3.156313   1.408385       1.0       2.0       3.0       4.0       5.0
+aas1_item_6                                                                                                                    504.0    NaN             NaN  NaN      3.27381   1.336306       1.0       2.0       4.0       4.0       5.0
+aas1_item_7                                                                                                                    503.0    NaN             NaN  NaN      4.32008   1.078093       1.0       4.0       5.0       5.0       5.0
+aas1_item_8                                                                                                                    506.0    NaN             NaN  NaN     4.521739   0.931581       1.0       4.0       5.0       5.0       5.0
+aas1_item_9                                                                                                                    505.0    NaN             NaN  NaN     4.287129   1.157589       1.0       4.0       5.0       5.0       5.0
+aas1_total                                                                                                                     506.0    NaN             NaN  NaN         31.0   4.880756       9.0      28.0      31.0      34.0      45.0
+psy1004_grade                                                                                                                  506.0    NaN             NaN  NaN    60.519763  11.200451      28.0      52.0      61.0      69.0      88.0
+nbt_completed                                                                                                                    506      1             yes  506          NaN        NaN       NaN       NaN       NaN       NaN       NaN
+nbt_year                                                                                                                       506.0    NaN             NaN  NaN  2021.903162   0.302645    2020.0    2022.0    2022.0    2022.0    2022.0
+nbt_al                                                                                                                         506.0    NaN             NaN  NaN    68.664032  10.508355      35.0      61.0      70.0     76.75      90.0
+nbt_math                                                                                                                       506.0    NaN             NaN  NaN    28.596838  26.322213       0.0       0.0      32.0      49.0      97.0
+nbt_ql                                                                                                                         506.0    NaN             NaN  NaN    54.986166  14.725939      29.0      43.0      53.0      65.0      95.0
+nbt_ave                                                                                                                        506.0    NaN             NaN  NaN    58.664032  11.298373      33.0      50.0      57.0      66.0      89.0
+nbt_did_math                                                                                                                     290      2             yes  174          NaN        NaN       NaN       NaN       NaN       NaN       NaN
+nbt_alql_ave                                                                                                                   506.0    NaN             NaN  NaN    61.825099   11.24795      33.5      53.0      61.5      70.0      88.0
+matric_mark                                                                                                                    506.0    NaN             NaN  NaN    74.316206   6.359745      58.0      69.0      74.0      79.0      92.0
+asrs1_item_1                                                                                                                   506.0    NaN             NaN  NaN     1.924901   1.074591       0.0       1.0       2.0       3.0       4.0
+asrs1_item_2                                                                                                                   506.0    NaN             NaN  NaN     2.173913   1.155868       0.0       1.0       2.0       3.0       4.0
+asrs1_item_3                                                                                                                   506.0    NaN             NaN  NaN     1.940711   1.199192       0.0       1.0       2.0       3.0       4.0
+asrs1_item_4                                                                                                                   506.0    NaN             NaN  NaN     2.820158    1.11216       0.0       2.0       3.0       4.0       4.0
+asrs1_item_5                                                                                                                   506.0    NaN             NaN  NaN     2.871542   1.228901       0.0       2.0       3.0       4.0       4.0
+asrs1_item_6                                                                                                                   506.0    NaN             NaN  NaN     1.851779   1.216946       0.0       1.0       2.0       3.0       4.0
+asrs1_item_7                                                                                                                   506.0    NaN             NaN  NaN      2.26087    1.13064       0.0       1.0       2.0       3.0       4.0
+asrs1_item_8                                                                                                                   506.0    NaN             NaN  NaN     2.883399   1.022635       0.0       2.0       3.0       4.0       4.0
+asrs1_item_9                                                                                                                   506.0    NaN             NaN  NaN     1.944664   1.184429       0.0       1.0       2.0       3.0       4.0
+asrs1_item_10                                                                                                                  506.0    NaN             NaN  NaN     2.005929    1.19982       0.0       1.0       2.0       3.0       4.0
+asrs1_item_11                                                                                                                  506.0    NaN             NaN  NaN     2.464427   1.134394       0.0       2.0       2.0       3.0       4.0
+asrs1_item_12                                                                                                                  506.0    NaN             NaN  NaN     0.505929   0.818695       0.0       0.0       0.0       1.0       4.0
+asrs1_item_13                                                                                                                  506.0    NaN             NaN  NaN     2.217391   1.234878       0.0       1.0       2.0       3.0       4.0
+asrs1_item_14                                                                                                                  506.0    NaN             NaN  NaN     1.818182   1.324015       0.0       1.0       2.0       3.0       4.0
+asrs1_item_15                                                                                                                  506.0    NaN             NaN  NaN     1.772727   1.265587       0.0       1.0       2.0       3.0       4.0
+asrs1_item_16                                                                                                                  506.0    NaN             NaN  NaN     1.600791   1.254978       0.0       1.0       1.0       2.0       4.0
+asrs1_item_17                                                                                                                  506.0    NaN             NaN  NaN     1.324111   1.219354       0.0       0.0       1.0       2.0       4.0
+asrs1_item_18                                                                                                                  506.0    NaN             NaN  NaN     1.288538   1.093521       0.0      0.25       1.0       2.0       4.0
+asrs1_total.x                                                                                                                  506.0    NaN             NaN  NaN     35.66996  11.509435       0.0     27.25      35.0     43.75      70.0
+bai1_item_1                                                                                                                    506.0    NaN             NaN  NaN     0.600791   0.822168       0.0       0.0       0.0       1.0       3.0
+bai1_item_2                                                                                                                    506.0    NaN             NaN  NaN     1.199605   0.999841       0.0       0.0       1.0       2.0       3.0
+bai1_item_3                                                                                                                    506.0    NaN             NaN  NaN     0.697628   0.917095       0.0       0.0       0.0       1.0       3.0
+bai1_item_4                                                                                                                    506.0    NaN             NaN  NaN      1.51581   1.079396       0.0       1.0       2.0       2.0       3.0
+bai1_item_5                                                                                                                    506.0    NaN             NaN  NaN     1.849802   1.099581       0.0       1.0       2.0       3.0       3.0
+bai1_item_6                                                                                                                    506.0    NaN             NaN  NaN     1.114625   1.031534       0.0       0.0       1.0       2.0       3.0
+bai1_item_7                                                                                                                    506.0    NaN             NaN  NaN     1.320158   1.073658       0.0       0.0       1.0       2.0       3.0
+bai1_item_8                                                                                                                    506.0    NaN             NaN  NaN     0.970356    1.05357       0.0       0.0       1.0       2.0       3.0
+bai1_item_9                                                                                                                    506.0    NaN             NaN  NaN     1.227273    1.09803       0.0       0.0       1.0       2.0       3.0
+bai1_item_10                                                                                                                   506.0    NaN             NaN  NaN      1.94664   0.928705       0.0       1.0       2.0       3.0       3.0
+bai1_item_11                                                                                                                   506.0    NaN             NaN  NaN     0.341897   0.757604       0.0       0.0       0.0       0.0       3.0
+bai1_item_12                                                                                                                   506.0    NaN             NaN  NaN     0.873518   1.037805       0.0       0.0       0.0       2.0       3.0
+bai1_item_13                                                                                                                   506.0    NaN             NaN  NaN     0.816206   0.952233       0.0       0.0       1.0       1.0       3.0
+bai1_item_14                                                                                                                   506.0    NaN             NaN  NaN     1.332016   1.162297       0.0       0.0       1.0       2.0       3.0
+bai1_item_15                                                                                                                   506.0    NaN             NaN  NaN     0.715415   0.988067       0.0       0.0       0.0       1.0       3.0
+bai1_item_16                                                                                                                   506.0    NaN             NaN  NaN     0.561265    0.96739       0.0       0.0       0.0       1.0       3.0
+bai1_item_17                                                                                                                   506.0    NaN             NaN  NaN     1.298419   1.064214       0.0       0.0       1.0       2.0       3.0
+bai1_item_18                                                                                                                   506.0    NaN             NaN  NaN     0.764822   0.994055       0.0       0.0       0.0       1.0       3.0
+bai1_item_19                                                                                                                   506.0    NaN             NaN  NaN     0.865613   1.001842       0.0       0.0       1.0       2.0       3.0
+bai1_item_20                                                                                                                   506.0    NaN             NaN  NaN     0.559289   0.877351       0.0       0.0       0.0       1.0       3.0
+bai1_item_21                                                                                                                   506.0    NaN             NaN  NaN     0.790514   1.024255       0.0       0.0       0.0       1.0       3.0
+bai1_total                                                                                                                     506.0    NaN             NaN  NaN    21.209486  12.758829       0.0      11.0      20.0      30.0      62.0
+asrs1_total.y                                                                                                                  505.0    NaN             NaN  NaN    21.360396  12.773237       0.0      11.0      20.0      30.0      62.0
+aas_change                                                                                                                     176.0    NaN             NaN  NaN    -0.019397   2.260037 -6.080996 -1.604738  0.100503  1.805744  5.003071
+
+DIAGNOSIS / TREATMENT VALUE LABELS
+have_you_ever_been_diagnosed_with_a_mental_illness {'no': 296, 'not formally diagnosed': 106, 'yes, formally diagnosed by a doctor or mental health professional': 104}
+if_you_have_been_diagnosed_with_a_mental_illness_at_what_age_was_this {'n/a': 150, 'not applicable': 55, '16': 38, '17': 37, '15': 21, 'none': 18, '14': 16, '18': 13, 'na': 12, 'no': 9, '12': 7, '-': 7, 'i have not': 6, '/': 5, 'n\\a': 5, '13': 4, 'i have 0 been diagnosed': 4, '19': 3, '0': 3, '8': 2, '11': 2, '0 been diagnosed': 2, 'nope': 2, 'n.a': 2, '17/18': 2, '0 been': 2, '0 diagnosed': 2, 'not diagnosed': 2, '5': 2, 'at 18 years of age.': 1, 'not  applicable': 1, '0 been diagnosed with mental illness': 1, 'no applicaiable': 1, "haven't been diagnosed": 1, "i've 0 been diagnosed": 1, 'i havent.': 1, 'non-applicable': 1, '6': 1, 'havent been diagnosed': 1, 'n/a, have not been formally diagnosed but was spoken to about it at around age 15': 1, 'no diagnosis was made': 1, '7 and 17': 1, 'i was informed by a doctor when i was 15': 1, 'not diagnosed with anything.': 1, 'i havent been diagnosed with a mental illness': 1, 'i havent been diagnosed': 1, 'do not have': 1, 'was 0 diagnosed': 1, 'no i have not been diagnosed with a mental illness': 1, '10': 1, 'i have not been formally diagnosed but i suspect i have  social anxiety': 1, "i haven't been formally": 1, 'i havent been diagonosed': 1, 'i have 0 been diagnosed.': 1, 'haven’t been diagnosed': 1, 'not applicable.': 1, 'not formally but i was 17': 1, "i haven't been formally diagnosed with a mental illness.": 1, 'i have not been diagnosed.': 1, 'i have not.': 1, 'i have 0 been diagnosed with mental illness at any point in my life': 1, '15 (2019)': 1, 'i did not have': 1, '9': 1, '11ish': 1, 'not formally diagnosed but suspected at 13/14 (beginning of grade 8)': 1, 'i started seeing a psychologist at age 6': 1, 'i did not': 1, 'n/a.': 1, "i've 0 been formally diagnosed": 1, '6 years': 1, 'i was not diagnosed with a mental illness.': 1, 'non': 1, 'not diagnosed.': 1, "no, i haven't": 1, 'was 0 formally diagnosed': 1, 'n.a.': 1, 'not sure': 1, '12 years of age': 1, 'i have not had any mental health difficulties or symptoms.': 1, 'not diagnosed but symptoms started at the early stages of 14 years old': 1, 'have not': 1, 'around age 15': 1, '22': 1, 'grade 4 for insomnia and the anxiety really began at age 16': 1, "diagnosis wasn't formal but i was 16-17": 1, '(previous)': 1, 'i do not have any mental illness': 1, 'i diagnosed myself when i was 14.': 1, 'nothing': 1, 'i have not been diagnosed with a mental illness at any age.': 1, 'the severe stress causing my skin disease occurred when i was 16': 1, '15/16': 1, 'first diagnosis of any mental illness was in 2017': 1, 'i haven’t been directly diagnosed': 1, '15-16': 1, '7': 1, 'i 0 been diagnosed with any  mental illness': 1, '20': 1, 'yes,15': 1, '9 years old': 1, 'l have not been diagnosed': 1}
+have_you_ever_used_prescribed_psychiatric_medication_for_a_mental_illness_or_symptoms_of_one {'no': 268, 'not applicable': 130, 'yes': 108}
+are_you_currently_using_prescribed_psychiatric_medication_for_a_mental_illness_or_symptoms_of_one {'no': 314, 'not applicable': 132, 'yes': 60}
+have_you_ever_been_to_therapy_or_counselling_for_a_mental_illness_or_symptoms_of_one {'no': 217, 'yes': 205, 'not applicable': 84}
+are_you_currently_in_therapy_or_counselling_for_a_mental_illness_or_symptoms_of_one {'no': 379, 'not applicable': 85, 'yes': 42}
+
+VARIABLE SEARCH
+                                         category                                                                                                                                                                                                                                                                                                                                                            matched_columns
+                                  ADHD diagnosis                                                                                             have_you_ever_been_diagnosed_with_a_mental_illness; if_you_have_been_diagnosed_formally_or_informally_please_list_the_diagnosis_diagnoses; was_this_diagnosis_made_before_or_after_you_left_high_school; if_you_have_been_diagnosed_with_a_mental_illness_at_what_age_was_this
+                                   ADHD symptoms                                                                          asrs1_item_1; asrs1_item_2; asrs1_item_3; asrs1_item_4; asrs1_item_5; asrs1_item_6; asrs1_item_7; asrs1_item_8; asrs1_item_9; asrs1_item_10; asrs1_item_11; asrs1_item_12; asrs1_item_13; asrs1_item_14; asrs1_item_15; asrs1_item_16; asrs1_item_17; asrs1_item_18; asrs1_total.x; asrs1_total.y
+                    Academic performance / marks                                                                                                                                                                                                                                                         psy1004_grade; nbt_completed; nbt_year; nbt_al; nbt_math; nbt_ql; nbt_ave; nbt_did_math; nbt_alql_ave; matric_mark
+                             Academic adjustment                                                                                                                                                                                                                                aas1_item_1; aas1_item_2; aas1_item_3; aas1_item_4; aas1_item_5; aas1_item_6; aas1_item_7; aas1_item_8; aas1_item_9; aas1_total; aas_change
+                  Institutional academic support                                                                                                                                                                                                                                                                                                                                                                       NONE
+Help-seeking / mental-health support / treatment have_you_ever_used_prescribed_psychiatric_medication_for_a_mental_illness_or_symptoms_of_one; are_you_currently_using_prescribed_psychiatric_medication_for_a_mental_illness_or_symptoms_of_one; have_you_ever_been_to_therapy_or_counselling_for_a_mental_illness_or_symptoms_of_one; are_you_currently_in_therapy_or_counselling_for_a_mental_illness_or_symptoms_of_one
+
+SUPPORT DECISION
+ This dataset does not contain a sufficiently clear variable for institutional academic support, so a support-vs-no-support comparison would not be valid.
+
+SCALE VALIDATION
+ scale  item_complete_n  item_incomplete_n  stored_total_mismatches_among_complete
+asrs1              506                  0                                       0
+ aas1              488                 18                                       0
+ bdi1              506                  0                                       0
+ bai1              506                  0                                      61
+
+ANALYSIS VARIABLES
+                                count       mean         std       min       25%       50%       75%       max
+source_excel_row               506.0      254.5  146.213884       2.0    128.25     254.5    380.75     507.0
+adhd_total                     506.0   35.66996   11.509435       0.0     27.25      35.0     43.75      70.0
+adjustment                     488.0   31.14959    4.828066       9.0      28.0      32.0      35.0      45.0
+depression                     506.0  16.312253   10.308572       0.0       9.0      15.0      23.0      58.0
+anxiety                        506.0   21.36166   12.758598       0.0      11.0      20.0      30.0      62.0
+inattention                    506.0  20.418972    6.689607       0.0      16.0      20.0      25.0      36.0
+hyperactivity                  506.0  15.250988    6.286104       0.0      11.0      15.0      19.0      34.0
+course_mark                    506.0  60.519763   11.200451      28.0      52.0      61.0      69.0      88.0
+age                            506.0  18.428854    0.720202      18.0      18.0      18.0      19.0      22.0
+matric_mark                    506.0  74.316206    6.359745      58.0      69.0      74.0      79.0      92.0
+nbt_alql                       506.0  61.825099    11.24795      33.5      53.0      61.5      70.0      88.0
+adjustment_change              176.0  -0.019397    2.260037 -6.080996 -1.604738  0.100503  1.805744  5.003071
+asrs6_sum                      506.0  13.583004    4.422493       0.0      11.0      13.0      17.0      24.0
+screen_positive                506.0   0.496047    0.500479       0.0       0.0       0.0       1.0       1.0
+adjustment_stored_sensitivity  506.0       31.0    4.880756       9.0      28.0      31.0      34.0      45.0
+anxiety_stored_sensitivity     506.0  21.209486   12.758829       0.0      11.0      20.0      30.0      62.0
+
+PLANNED ASSOCIATIONS
+                        test_id    family     predictor           outcome   n  pearson_r  r_ci_low  r_ci_high            p  spearman_rho   spearman_p     slope  slope_ci_low  slope_ci_high  slope_p_HC3  R_squared       p_holm
+       adhd_total__course_mark   primary    adhd_total       course_mark 506  -0.040740 -0.127456   0.046594 3.604301e-01     -0.032298 4.685024e-01 -0.039647     -0.123610       0.044317 3.540067e-01   0.001660 1.000000e+00
+      inattention__course_mark   primary   inattention       course_mark 506  -0.107146 -0.192517  -0.020166 1.590114e-02     -0.103353 2.005323e-02 -0.179395     -0.330579      -0.028212 2.013057e-02   0.011480 7.950569e-02
+    hyperactivity__course_mark   primary hyperactivity       course_mark 506   0.039431 -0.047902   0.126166 3.760884e-01      0.046155 3.001026e-01  0.070257     -0.080396       0.220911 3.599855e-01   0.001555 1.000000e+00
+        adhd_total__adjustment   primary    adhd_total        adjustment 488  -0.138592 -0.224592  -0.050450 2.150854e-03     -0.153011 6.952259e-04 -0.058179     -0.096752      -0.019607 3.189818e-03   0.019208 1.505598e-02
+       inattention__adjustment   primary   inattention        adjustment 488  -0.204748 -0.288272  -0.118132 5.119545e-06     -0.212245 2.238272e-06 -0.147277     -0.213689      -0.080865 1.607413e-05   0.041922 5.119545e-05
+     hyperactivity__adjustment   primary hyperactivity        adjustment 488  -0.035010 -0.123389   0.053921 4.403250e-01     -0.047489 2.951122e-01 -0.026937     -0.094532       0.040659 4.340165e-01   0.001226 1.000000e+00
+ adhd_total__adjustment_change secondary    adhd_total adjustment_change 176  -0.222952 -0.359031  -0.077590 2.937153e-03     -0.188258 1.234466e-02 -0.047840     -0.080338      -0.015341 4.144890e-03   0.049707 2.937153e-03
+inattention__adjustment_change secondary   inattention adjustment_change 176  -0.327679 -0.453613  -0.188916 9.022157e-06     -0.297125 6.213836e-05 -0.121844     -0.177034      -0.066655 2.244443e-05   0.107374 1.804431e-05
+       inattention__depression secondary   inattention        depression 506   0.491309  0.422222   0.554721 4.187987e-32      0.480291 1.463175e-30  0.757098      0.630094       0.884103 3.450205e-28   0.241384 1.675195e-31
+          inattention__anxiety secondary   inattention           anxiety 506   0.447808  0.375289   0.514879 2.522801e-26      0.443718 8.015246e-26  0.854072      0.704108       1.004036 4.128331e-26   0.200532 7.568404e-26
+
+SCREENING GROUP DESCRIPTIVES
+           group   n      mean  median        sd  mean_ci_low  mean_ci_high  skewness
+Screen negative 255 61.580392    62.0 11.618967    60.147479     63.013305 -0.112026
+Screen positive 251 59.442231    60.0 10.674064    58.115299     60.769163 -0.149243
+
+SCREENING GROUP TEST
+ {
+  "test_id": "screen_welch",
+  "family": "primary",
+  "positive_n": 251,
+  "negative_n": 255,
+  "mean_difference_positive_minus_negative": -2.138161081165535,
+  "difference_ci_low": -4.0864309911806105,
+  "difference_ci_high": -0.18989117115045917,
+  "welch_t": -2.156197394343599,
+  "welch_df": 501.6234551451955,
+  "p": 0.03154293888851799,
+  "cohens_d": -0.19158686784980625,
+  "hedges_g": -0.19130162685548893,
+  "g_bootstrap_ci_low": -0.367277825144127,
+  "g_bootstrap_ci_high": -0.014087784270601636,
+  "mann_whitney_u": 28654.0,
+  "mann_whitney_p": 0.04162811923122988,
+  "rank_biserial_positive_minus_negative": -0.10463245058979764,
+  "levene_median_p": 0.11972154110680971,
+  "p_holm": 0.12617175555407195
+}
+
+REGRESSION COEFFICIENTS (HC3 95% CIs)
+                   model           outcome          term   n  coefficient     ci_low   ci_high             p  R_squared  adjusted_R_squared                     unit
+        marks_joint_raw       course_mark         const 506    63.044564  59.712064 66.377064 2.248559e-146   0.026622            0.022752          per 1 raw point
+        marks_joint_raw       course_mark   inattention 506    -0.323487  -0.511089 -0.135884  7.599123e-04   0.026622            0.022752          per 1 raw point
+        marks_joint_raw       course_mark hyperactivity 506     0.267554   0.083693  0.451416  4.425979e-03   0.026622            0.022752          per 1 raw point
+         marks_joint_sd       course_mark         const 506    60.519763  59.549740 61.489786  0.000000e+00   0.026622            0.022752 per 1 SD (symptoms only)
+         marks_joint_sd       course_mark   inattention 506    -2.164001  -3.418988 -0.909013  7.599123e-04   0.026622            0.022752 per 1 SD (symptoms only)
+         marks_joint_sd       course_mark hyperactivity 506     1.681875   0.526105  2.837645  4.425979e-03   0.026622            0.022752 per 1 SD (symptoms only)
+     marks_adjusted_raw       course_mark         const 506   -21.879838 -45.218834  1.459159  6.608398e-02   0.293588            0.286524          per 1 raw point
+     marks_adjusted_raw       course_mark   inattention 506    -0.139659  -0.302566  0.023248  9.273939e-02   0.293588            0.286524          per 1 raw point
+     marks_adjusted_raw       course_mark hyperactivity 506     0.066956  -0.096870  0.230782  4.223672e-01   0.293588            0.286524          per 1 raw point
+     marks_adjusted_raw       course_mark           age 506     0.996046  -0.155141  2.147233  8.976380e-02   0.293588            0.286524          per 1 raw point
+     marks_adjusted_raw       course_mark   matric_mark 506     0.746186   0.595424  0.896947  1.381477e-20   0.293588            0.286524          per 1 raw point
+     marks_adjusted_raw       course_mark      nbt_alql 506     0.168548   0.087653  0.249442  4.951863e-05   0.293588            0.286524          per 1 raw point
+      marks_adjusted_sd       course_mark         const 506   -23.710388 -46.569585 -0.851191  4.208788e-02   0.293588            0.286524 per 1 SD (symptoms only)
+      marks_adjusted_sd       course_mark   inattention 506    -0.934264  -2.024045  0.155518  9.273939e-02   0.293588            0.286524 per 1 SD (symptoms only)
+      marks_adjusted_sd       course_mark hyperactivity 506     0.420891  -0.608938  1.450720  4.223672e-01   0.293588            0.286524 per 1 SD (symptoms only)
+      marks_adjusted_sd       course_mark           age 506     0.996046  -0.155141  2.147233  8.976380e-02   0.293588            0.286524 per 1 SD (symptoms only)
+      marks_adjusted_sd       course_mark   matric_mark 506     0.746186   0.595424  0.896947  1.381477e-20   0.293588            0.286524 per 1 SD (symptoms only)
+      marks_adjusted_sd       course_mark      nbt_alql 506     0.168548   0.087653  0.249442  4.951863e-05   0.293588            0.286524 per 1 SD (symptoms only)
+   adjustment_joint_raw        adjustment         const 488    33.738089  32.296908 35.179270 5.410264e-179   0.051678            0.047767          per 1 raw point
+   adjustment_joint_raw        adjustment   inattention 488    -0.196312  -0.274149 -0.118476  9.979280e-07   0.051678            0.047767          per 1 raw point
+   adjustment_joint_raw        adjustment hyperactivity 488     0.092339   0.013613  0.171065  2.160853e-02   0.051678            0.047767          per 1 raw point
+adjustment_adjusted_raw        adjustment         const 488    17.816515   6.104660 29.528370  2.941157e-03   0.067292            0.057617          per 1 raw point
+adjustment_adjusted_raw        adjustment   inattention 488    -0.184387  -0.265500 -0.103274  9.909430e-06   0.067292            0.057617          per 1 raw point
+adjustment_adjusted_raw        adjustment hyperactivity 488     0.083049   0.002499  0.163599  4.332861e-02   0.067292            0.057617          per 1 raw point
+adjustment_adjusted_raw        adjustment           age 488     0.830658   0.275638  1.385678  3.431982e-03   0.067292            0.057617          per 1 raw point
+adjustment_adjusted_raw        adjustment   matric_mark 488    -0.000303  -0.071891  0.071285  9.933669e-01   0.067292            0.057617          per 1 raw point
+adjustment_adjusted_raw        adjustment      nbt_alql 488     0.008671  -0.030900  0.048241  6.669927e-01   0.067292            0.057617          per 1 raw point
+    change_adjusted_raw adjustment_change         const 176     2.405842  -8.248253 13.059937  6.563376e-01   0.129094            0.103479          per 1 raw point
+    change_adjusted_raw adjustment_change   inattention 176    -0.158689  -0.228353 -0.089024  1.273938e-05   0.129094            0.103479          per 1 raw point
+    change_adjusted_raw adjustment_change hyperactivity 176     0.066420   0.004848  0.127991  3.465640e-02   0.129094            0.103479          per 1 raw point
+    change_adjusted_raw adjustment_change           age 176     0.012773  -0.482572  0.508118  9.594637e-01   0.129094            0.103479          per 1 raw point
+    change_adjusted_raw adjustment_change   matric_mark 176    -0.010351  -0.068633  0.047930  7.263260e-01   0.129094            0.103479          per 1 raw point
+    change_adjusted_raw adjustment_change      nbt_alql 176     0.004895  -0.028060  0.037850  7.697130e-01   0.129094            0.103479          per 1 raw point
+
+SYMPTOM COEFFICIENT CONTRAST
+ {'test_id': 'symptom_coefficient_contrast', 'family': 'primary', 'difference_per_SD': -3.8458752643088787, 'ci_low': -5.997168374539234, 'ci_high': -1.6945821540785242, 'p': 0.00048428354675642926, 'p_holm': 0.0043585519208078636}
+
+SENSITIVITY ANALYSES
+                                    test_id                                    family   predictor                       outcome   n  pearson_r  r_ci_low  r_ci_high            p  spearman_rho   spearman_p     slope  slope_ci_low  slope_ci_high  slope_p_HC3  R_squared
+inattention__adjustment_stored_sensitivity                               sensitivity inattention adjustment_stored_sensitivity 506  -0.213665 -0.295333  -0.128897 1.231415e-06     -0.222144 4.468271e-07 -0.155891     -0.221217      -0.090565 3.549234e-06   0.045653
+ adhd_total__adjustment_stored_sensitivity                               sensitivity  adhd_total adjustment_stored_sensitivity 506  -0.145480 -0.229735  -0.059060 1.031233e-03     -0.160249 2.954901e-04 -0.061693     -0.099692      -0.023694 1.512816e-03   0.021164
+   inattention__anxiety_stored_sensitivity                               sensitivity inattention    anxiety_stored_sensitivity 506   0.447644  0.375112   0.514728 2.643613e-26      0.443840 7.745289e-26  0.853774      0.703909       1.003638 3.998376e-26   0.200385
+                  inattention__course_mark sensitivity_excluding_cooks_d_gt_4_over_n inattention                   course_mark 482  -0.120682 -0.207757  -0.031710 7.993682e-03     -0.112960 1.308379e-02 -0.195631     -0.323308      -0.067953 2.743780e-03   0.014564
+                   inattention__adjustment sensitivity_excluding_cooks_d_gt_4_over_n inattention                    adjustment 456  -0.266893 -0.350140  -0.179464 7.081777e-09     -0.265514 8.514598e-09 -0.171497     -0.223344      -0.119650 2.113953e-10   0.071232
+
+CHANGE-SUBSET SELECTION
+                     n  mean_course_mark  mean_inattention  mean_ADHD
+change_available                                                    
+False             330         59.348485         20.542424  35.818182
+True              176         62.715909         20.187500  35.392045

@@ -1,0 +1,15 @@
+test_id,family,p,p_holm
+adhd_total__course_mark,primary,0.3604300617259029,1.0
+inattention__course_mark,primary,0.015901137253824908,0.07950568626912455
+hyperactivity__course_mark,primary,0.37608843181414725,1.0
+adhd_total__adjustment,primary,0.0021508544727478728,0.01505598130923511
+inattention__adjustment,primary,5.119544575427539e-06,5.11954457542754e-05
+hyperactivity__adjustment,primary,0.4403249973365295,1.0
+screen_welch,primary,0.03154293888851799,0.12617175555407195
+joint_coefficient_inattention,primary,0.000759912289787217,0.006079298318297736
+joint_coefficient_hyperactivity,primary,0.004425979199523395,0.026555875197140373
+symptom_coefficient_contrast,primary,0.00048428354675642926,0.0043585519208078636
+adhd_total__adjustment_change,secondary,0.00293715263446865,0.00293715263446865
+inattention__adjustment_change,secondary,9.022156795597527e-06,1.8044313591195053e-05
+inattention__depression,secondary,4.187986750604967e-32,1.6751947002419868e-31
+inattention__anxiety,secondary,2.5228014708053784e-26,7.568404412416136e-26

@@ -1,0 +1,7 @@
+category,matched_columns
+ADHD diagnosis,have_you_ever_been_diagnosed_with_a_mental_illness; if_you_have_been_diagnosed_formally_or_informally_please_list_the_diagnosis_diagnoses; was_this_diagnosis_made_before_or_after_you_left_high_school; if_you_have_been_diagnosed_with_a_mental_illness_at_what_age_was_this
+ADHD symptoms,asrs1_item_1; asrs1_item_2; asrs1_item_3; asrs1_item_4; asrs1_item_5; asrs1_item_6; asrs1_item_7; asrs1_item_8; asrs1_item_9; asrs1_item_10; asrs1_item_11; asrs1_item_12; asrs1_item_13; asrs1_item_14; asrs1_item_15; asrs1_item_16; asrs1_item_17; asrs1_item_18; asrs1_total.x; asrs1_total.y
+Academic performance / marks,psy1004_grade; nbt_completed; nbt_year; nbt_al; nbt_math; nbt_ql; nbt_ave; nbt_did_math; nbt_alql_ave; matric_mark
+Academic adjustment,aas1_item_1; aas1_item_2; aas1_item_3; aas1_item_4; aas1_item_5; aas1_item_6; aas1_item_7; aas1_item_8; aas1_item_9; aas1_total; aas_change
+Institutional academic support,NONE
+Help-seeking / mental-health support / treatment,have_you_ever_used_prescribed_psychiatric_medication_for_a_mental_illness_or_symptoms_of_one; are_you_currently_using_prescribed_psychiatric_medication_for_a_mental_illness_or_symptoms_of_one; have_you_ever_been_to_therapy_or_counselling_for_a_mental_illness_or_symptoms_of_one; are_you_currently_in_therapy_or_counselling_for_a_mental_illness_or_symptoms_of_one

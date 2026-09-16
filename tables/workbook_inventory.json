@@ -1,0 +1,36 @@
+{
+  "archive_members": [
+    "ADHD.xlsx"
+  ],
+  "workbook_sha256": "84373cad739c5e315fd7a94c0fc98627936d1a9291265fca0a71545f4d561c3a",
+  "sheets": [
+    "Sheet1",
+    "Outliers"
+  ],
+  "main_shape": [
+    506,
+    110
+  ],
+  "outliers_shape_headerless": [
+    10,
+    111
+  ],
+  "cell_comments": 0,
+  "named_ranges": [],
+  "sheet_states": {
+    "Sheet1": "visible",
+    "Outliers": "visible"
+  },
+  "excel_error_counts": {
+    "Sheet1": 0,
+    "Outliers": 10
+  },
+  "duplicate_rows_main": 0,
+  "outliers_missing_course_marks": 10,
+  "asrs_x_item_sum_matches": 506,
+  "asrs_y_item_sum_matches": 7,
+  "asrs_y_anxiety_item_sum_matches": 503,
+  "analysis_n": 506,
+  "adjustment_complete_n": 488,
+  "adjustment_change_n": 176
+}
