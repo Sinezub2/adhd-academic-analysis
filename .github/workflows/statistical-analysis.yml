@@ -1,0 +1,35 @@
+name: Statistical analysis
+
+on:
+  push:
+    paths:
+      - 'adhd_statistical_analysis/**'
+      - '.github/workflows/statistical-analysis.yml'
+  pull_request:
+    paths:
+      - 'adhd_statistical_analysis/**'
+      - '.github/workflows/statistical-analysis.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: adhd_statistical_analysis
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: adhd_statistical_analysis/requirements-lock.txt
+      - name: Install pinned dependencies
+        run: python -m pip install -r requirements-lock.txt
+      - name: Regenerate results without network access
+        run: python run_analysis.py
+      - name: Check numerical results and source provenance
+        run: python -m pytest -q

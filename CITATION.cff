@@ -1,0 +1,145 @@
+cff-version: 1.2.0
+message: "Please cite this repository for the secondary analysis and separately credit the source dataset and studies listed in references.bib."
+type: software
+title: "ADHD, academic outcomes, and social adjustment: reproducible statistical analysis"
+authors:
+  - name: "Sinezub2"
+    website: "https://github.com/Sinezub2"
+version: 1.0.0
+date-released: 2026-10-20
+repository-code: "https://github.com/Sinezub2/adhd-academic-analysis"
+url: "https://github.com/Sinezub2/adhd-academic-analysis"
+abstract: >-
+  Secondary analysis of academic and social adjustment in university students.
+  Primary Welch comparisons use published Israeli ADHD-only and comparison-group
+  summaries with Holm correction. South African ASRS associations are provisional
+  score audits because AAS coding and weighted GPA availability are unresolved.
+  Outcomes, diagnoses, symptom severity and study populations remain distinct.
+keywords:
+  - ADHD
+  - academic adjustment
+  - social adjustment
+  - reproducible research
+  - Welch t-test
+  - Holm correction
+references:
+  - type: data
+    title: "ADHD and Common Mental Disorders: Effect on Academic Success in SA First-Years"
+    authors:
+      - family-names: Rousseau
+        given-names: Kim
+      - family-names: Mohamad
+        given-names: Nawal
+      - family-names: Dowlut
+        given-names: Fatimah
+      - family-names: Gering
+        given-names: Milton
+      - family-names: Thomas
+        given-names: Kevin
+    year: 2024
+    version: "1"
+    doi: "10.25375/uct.24906924.v1"
+    url: "https://doi.org/10.25375/uct.24906924.v1"
+    license: CC-BY-4.0
+  - type: article
+    title: "Symptoms of ADHD and Other Common Mental Disorders Influence Academic Success in South African Undergraduates"
+    authors:
+      - family-names: Mohamad
+        given-names: Nawal
+      - family-names: Rousseau
+        given-names: Kim-Louise
+      - family-names: Dowlut
+        given-names: Fatimah
+      - family-names: Gering
+        given-names: Milton
+      - family-names: Thomas
+        given-names: Kevin G. F.
+    year: 2025
+    journal: "Journal of Attention Disorders"
+    doi: "10.1177/10870547241310659"
+  - type: article
+    title: "Students with learning disabilities/attention-deficit/hyperactivity disorder in higher education dealing with remote learning: lessons learned from COVID-19 era"
+    authors:
+      - family-names: Sarid
+        given-names: Miriam
+      - family-names: Lipka
+        given-names: Orly
+    year: 2023
+    journal: "Frontiers in Psychology"
+    doi: "10.3389/fpsyg.2023.1172771"
+  - type: article
+    title: "First-Year GPA and Academic Service Use Among College Students With and Without ADHD"
+    authors:
+      - family-names: Gormley
+        given-names: Matthew J.
+      - family-names: DuPaul
+        given-names: George J.
+      - family-names: Weyandt
+        given-names: Lisa L.
+      - family-names: Anastopoulos
+        given-names: Arthur D.
+    year: 2019
+    journal: "Journal of Attention Disorders"
+    doi: "10.1177/1087054715623046"
+  - type: article
+    title: "Adjustment to Higher Education: A Comparison of Students With and Without Disabilities"
+    authors:
+      - family-names: Lipka
+        given-names: Orly
+      - family-names: Sarid
+        given-names: Miriam
+      - family-names: Aharoni Zorach
+        given-names: Inbar
+      - family-names: Bufman
+        given-names: Adi
+      - family-names: Hagag
+        given-names: Adi Anna
+      - family-names: Peretz
+        given-names: Hila
+    year: 2020
+    journal: "Frontiers in Psychology"
+    doi: "10.3389/fpsyg.2020.00923"
+  - type: article
+    title: "Adjustment Across the First College Year: A Matched Comparison of Autistic, Attention-Deficit/Hyperactivity Disorder, and Neurotypical Students"
+    authors:
+      - family-names: Baczewski
+        given-names: Lauren M.
+      - family-names: Pizzano
+        given-names: Maria
+      - family-names: Kasari
+        given-names: Connie
+      - family-names: Sturm
+        given-names: Alexandra
+    year: 2022
+    journal: "Autism in Adulthood"
+    doi: "10.1089/aut.2021.0012"
+  - type: article
+    title: "The academic adjustment scale: Measuring the adjustment of permanent resident or sojourner students"
+    authors:
+      - family-names: Anderson
+        given-names: Joel R.
+      - family-names: Guan
+        given-names: Yao
+      - family-names: Koc
+        given-names: Yasin
+    year: 2016
+    journal: "International Journal of Intercultural Relations"
+    doi: "10.1016/j.ijintrel.2016.07.006"
+  - type: article
+    title: "Assessment of the Relationship between Mental Health and Academic Achievement among Students in Kazakhstan"
+    authors:
+      - family-names: Yertukeshova
+        given-names: Guliya
+      - family-names: Baizhumanova
+        given-names: Bibianar
+      - family-names: Tuyakova
+        given-names: Ulbossyn
+      - family-names: Kulzhabayeva
+        given-names: Lyazzat
+      - family-names: Jumagulova
+        given-names: Gulnara
+      - family-names: Zhigitbekova
+        given-names: Bakyt
+    year: 2024
+    journal: "Health Psychology Research"
+    doi: "10.52965/001c.125270"

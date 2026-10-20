@@ -1,0 +1,27 @@
+{
+  "seed": 42,
+  "bootstrap_resamples": 5000,
+  "alpha": 0.05,
+  "alternative": "two-sided",
+  "analysis_date": "2026-10-20",
+  "run_timestamp_utc": "2026-10-20T15:24:06.658823+00:00",
+  "python": "3.12.15",
+  "packages": {
+    "pandas": "3.0.6",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "openpyxl": "3.1.5",
+    "beautifulsoup4": "4.15.0",
+    "pytest": "9.1.1"
+  },
+  "source_hashes": {
+    "Student Mental Health Article Data.xlsx": "84373cad739c5e315fd7a94c0fc98627936d1a9291265fca0a71545f4d561c3a",
+    "intro_analysis.ipynb": "88a6cdb9a52e2dfce38f3df0bb472dcff410495a982b6c50f42e6e08354d7e00",
+    "ADHD_Codex_Statistical_Analysis_Prompt.md": "f345c3895eeefd65389ee03e283b70e804fe229aefd97ec27134f8b8808d51be",
+    "adhd_statistical_analysis/data/raw/Student Mental Health Article Data.xlsx": "84373cad739c5e315fd7a94c0fc98627936d1a9291265fca0a71545f4d561c3a"
+  },
+  "raw_available": true
+}

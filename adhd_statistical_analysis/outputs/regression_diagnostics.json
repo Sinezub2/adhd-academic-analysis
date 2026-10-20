@@ -1,0 +1,41 @@
+[
+  {
+    "model": "AAS_base",
+    "n": 488,
+    "r_squared": 0.04045564347797992,
+    "adjusted_r_squared": 0.03250910636392601,
+    "df_resid": 483.0,
+    "covariates": [
+      "asrs_total",
+      "age",
+      "matric_mark",
+      "nbt_ave"
+    ],
+    "max_cooks_distance": 0.02673583901123451,
+    "cooks_above_4_over_n": 24,
+    "max_leverage": 0.0769523307061004,
+    "max_abs_studentized_residual": 4.589757823559906,
+    "covariance": "HC3 robust, t reference",
+    "records_deleted_for_influence": 0
+  },
+  {
+    "model": "AAS_plus_BDI",
+    "n": 488,
+    "r_squared": 0.07723300975876135,
+    "adjusted_r_squared": 0.067660738075761,
+    "df_resid": 482.0,
+    "covariates": [
+      "asrs_total",
+      "age",
+      "matric_mark",
+      "nbt_ave",
+      "bdi1_total"
+    ],
+    "max_cooks_distance": 0.02408772045779862,
+    "cooks_above_4_over_n": 26,
+    "max_leverage": 0.07978490984381494,
+    "max_abs_studentized_residual": 4.551645608336633,
+    "covariance": "HC3 robust, t reference",
+    "records_deleted_for_influence": 0
+  }
+]

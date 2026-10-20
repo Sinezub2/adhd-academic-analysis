@@ -1,0 +1,110 @@
+{
+  "asrs": {
+    "complete_item_n": 506,
+    "incomplete_item_n": 0,
+    "stored_total_n": 506,
+    "item_sum_mismatches_complete": 0,
+    "stored_total_equals_skipna_sum_n": 506
+  },
+  "aas": {
+    "complete_item_n": 488,
+    "incomplete_item_n": 18,
+    "stored_total_n": 506,
+    "item_sum_mismatches_complete": 0,
+    "stored_total_equals_skipna_sum_n": 506
+  },
+  "bdi": {
+    "complete_item_n": 506,
+    "incomplete_item_n": 0,
+    "stored_total_n": 506,
+    "item_sum_mismatches_complete": 0,
+    "stored_total_equals_skipna_sum_n": 506
+  },
+  "bai": {
+    "complete_item_n": 506,
+    "incomplete_item_n": 0,
+    "stored_total_n": 506,
+    "item_sum_mismatches_complete": 61,
+    "stored_total_equals_skipna_sum_n": 445
+  },
+  "audit": {
+    "complete_item_n": 506,
+    "incomplete_item_n": 0,
+    "stored_total_n": 506,
+    "item_sum_mismatches_complete": 0,
+    "stored_total_equals_skipna_sum_n": 506
+  },
+  "n_rows": 506,
+  "n_columns": 110,
+  "exact_duplicate_rows": 0,
+  "sheet_dimensions": {
+    "Sheet1": {
+      "rows": 507,
+      "columns": 115
+    },
+    "Outliers": {
+      "rows": 10,
+      "columns": 111
+    }
+  },
+  "participant_id_available": false,
+  "wave2_or_wave3_items_available": false,
+  "b1_b2_present": false,
+  "formula_errors": [
+    [
+      "Outliers",
+      "DG1",
+      "=VLOOKUP(#REF!,[1]Sheet2!$A$2:$C$518,2,FALSE)"
+    ],
+    [
+      "Outliers",
+      "DG2",
+      "=VLOOKUP(#REF!,[1]Sheet2!$A$2:$C$518,2,FALSE)"
+    ],
+    [
+      "Outliers",
+      "DG3",
+      "=VLOOKUP(#REF!,[1]Sheet2!$A$2:$C$518,2,FALSE)"
+    ],
+    [
+      "Outliers",
+      "DG4",
+      "=VLOOKUP(#REF!,[1]Sheet2!$A$2:$C$518,2,FALSE)"
+    ],
+    [
+      "Outliers",
+      "DG5",
+      "=VLOOKUP(#REF!,[1]Sheet2!$A$2:$C$518,2,FALSE)"
+    ],
+    [
+      "Outliers",
+      "DG6",
+      "=VLOOKUP(#REF!,[1]Sheet2!$A$2:$C$518,2,FALSE)"
+    ],
+    [
+      "Outliers",
+      "DG7",
+      "=VLOOKUP(#REF!,[1]Sheet2!$A$2:$C$518,2,FALSE)"
+    ],
+    [
+      "Outliers",
+      "DG8",
+      "=VLOOKUP(#REF!,[1]Sheet2!$A$2:$C$518,2,FALSE)"
+    ],
+    [
+      "Outliers",
+      "DG9",
+      "=VLOOKUP(#REF!,[1]Sheet2!$A$2:$C$518,2,FALSE)"
+    ],
+    [
+      "Outliers",
+      "DG10",
+      "=VLOOKUP(#REF!,[1]Sheet2!$A$2:$C$518,2,FALSE)"
+    ]
+  ],
+  "asrs_y_matches_bai_stored_n": 444,
+  "asrs_y_matches_bai_item_sum_n": 503,
+  "aas_reverse_coding": "Unresolved: author total is untransformed sum; original AAS appendix marks items 2 and 3 reversed; workbook gives no question wording or recoding history",
+  "missing_codes": "Numeric analysis fields: Excel blanks only. Text history fields contain na/n/a/none/not applicable; not used or exported.",
+  "outliers_sheet_policy": "10 headerless ancillary rows; no IDs, unresolved provenance and broken external formula references. Not appended to canonical 506-row Sheet1; no new participant exclusion based on observed results."
+}

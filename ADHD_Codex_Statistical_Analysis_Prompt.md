@@ -1,0 +1,72 @@
+# Codex task: ADHD, academic outcomes, and social adjustment
+
+You are the statistical analyst and Python developer for my university research project about academic and social outcomes among students with ADHD, with implications for ADHD support in Kazakhstan. **Actually implement and execute the analysis**, not just describe how to do it. Work in the current repository if one is open (my relevant project may be `Sinezub2/adhd-academic-analysis`); otherwise create a self-contained `adhd_statistical_analysis/` project. Preserve existing files. I need transparent, reproducible statistics and an evidence-based answer to *both* research questions.
+
+## Research questions and non-negotiable rules
+
+1. **Academic:** Do students with ADHD show poorer academic outcomes than students without ADHD? Also, where diagnosis is unavailable, is higher *ADHD symptom severity* associated with poorer GPA/academic adjustment?
+2. **Social:** Do students with ADHD show lower social-adjustment/social-functioning scores than comparable students without ADHD?
+
+These are related but distinct hypotheses. Distinguish **actual grades/GPA**, **self-reported academic adjustment**, and **social adjustment**. Distinguish **diagnosed ADHD**, **self-reported diagnosis**, and **questionnaire symptom severity**. Do not turn a symptom score into a diagnosis or merge these populations as if equivalent. Higher social/academic *adjustment* scales indicate better outcomes; verify each scale's direction from the source.
+
+Use two-sided alpha = 0.05 as the default, report 95% CIs and effect sizes, and Holm-adjust the two primary hypothesis tests; separately flag exploratory comparisons and adjust within their own family. Never choose tests, exclusions, cutoffs, hypotheses, or datasets because they produce smaller p-values. A non-significant result must be reported faithfully. Statistical significance is evidence of an association/difference, not mathematical proof of causation.
+
+## Priority sources and confirmed data
+
+**Source A – participant-level academic data (South Africa):**
+
+- Data: Rousseau et al. (2024), *ADHD and Common Mental Disorders: Effect on Academic Success in SA First-Years*, https://doi.org/10.25375/uct.24906924 (also linked from https://figshare.com/articles/dataset/ADHD_and_Common_Mental_Disorders_Effect_on_Academic_Success_in_SA_First-Years/24906924).
+- Peer-reviewed analysis: Mohamad et al. (2025), *Symptoms of ADHD and Other Common Mental Disorders Influence Academic Success in South African Undergraduates*, https://pmc.ncbi.nlm.nih.gov/articles/PMC11800717/ , DOI 10.1177/10870547241310659.
+- Dataset includes ASRS (ADHD symptom severity, including inattention/hyperactivity items), objectively derived weighted first-semester GPA, Academic Adjustment Scale (AAS), Grade 12 marks, NBT, age, BDI-II, BAI, AUDIT, with repeated waves. Paper states baseline N=506, second wave N=332, third wave N=180; sample sizes must be rechecked for *each variable/pairwise complete case*. Suffixes 1/2/3 may identify waves. The older project mentioned headers `b1` and `b2`; DO NOT guess their semantics. Obtain the codebook, metadata, or author documentation and document mappings. If an unknown field cannot be established, exclude it from inferential analysis and say so.
+- Prior project output claimed an inattention vs academic-adjustment correlation of r=-0.205, n=488, p=5.12e-6, while another presentation version claimed r=-0.14, Holm p=.015. These figures conflict and may represent different outcome definitions or samples. **Independently reproduce and reconcile them or flag them as unresolved. Do not copy a past p-value without verification.**
+- **The South African source is NOT a verified ADHD-diagnosed vs control-group comparison and does NOT supply a confirmed social-adjustment outcome.** Use its continuous ASRS scores as symptom measures; do not mislabel AAS as social adjustment.
+
+**Source B – diagnosed/self-reported ADHD vs comparison, academic AND social adjustment (Israel):**
+
+- Sarid & Lipka (2023), *Students with learning disabilities/attention-deficit/hyperactivity disorder in higher education dealing with remote learning: lessons learned from COVID-19 era*, https://doi.org/10.3389/fpsyg.2023.1172771 , full text https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1172771/full .
+- Use **Table 3**, COVID-19 remote-learning sample, restricting the **ADHD-only** and **without LD/ADHD** columns. Do NOT combine ADHD with LD+ADHD or LD-only in the primary comparison.
+- ADHD-only n=68; no LD/ADHD n=197. Published summary statistics:
+
+| Outcome | ADHD-only mean | ADHD-only SD | Comparison mean | Comparison SD |
+|---|---:|---:|---:|---:|
+| Academic adjustment | 5.55 | 1.04 | 6.04 | 1.17 |
+| Social adjustment | 5.41 | 1.49 | 6.03 | 1.25 |
+
+- Both are self-reported Student Adaptation to College Questionnaire subscales, **not GPA or objectively observed social abilities**; higher scores represent better adjustment. Diagnoses were self-reported with verification procedures described by the authors. Context is Israeli undergraduates during COVID-19 remote learning.
+- At minimum implement Welch two-sample t-tests **from the published n, mean, SD**, with two-sided p-values, Satterthwaite degrees of freedom, difference in means, 95% CI, standardized effect size (Hedges' g with sign), and Holm-adjusted p-values for the academic and social tests. Because these are **aggregate summaries, not raw participant observations**, you **cannot calculate true medians, quartiles, outlier diagnostics, Shapiro tests, or Levene/Brown-Forsythe tests** for this study. Label them `not computable from summary statistics`; never invent individual rows or simulate pseudo-participants. The expected approximate unadjusted two-sided Welch p-values from rounded summaries are ~0.00151 (academic) and ~0.00268 (social); treat as validation checks, not values to hard-code. Recompute independently.
+- The authors' four-group omnibus ANOVA / Tukey post-hoc analyses are not identical to this focused two-group Welch analysis; distinguish your reanalysis from their published statistics. Since source means/SDs are rounded, computed values are approximate.
+
+**Additional context / triangulation, not substitute for main tests:**
+
+- Gormley et al. (2019), ADHD/non-ADHD college GPA comparison, https://pmc.ncbi.nlm.nih.gov/articles/PMC6209537/ , DOI 10.1177/1087054715623046. Prior project documented Fall GPA 2.91 vs 3.26; Spring GPA 2.79 vs 3.13. Verify original sample Ns/SDs and never run a t-test from means alone if these are missing.
+- Lipka et al. (2020), *Adjustment to Higher Education: A Comparison of Students With and Without Disabilities*, https://doi.org/10.3389/fpsyg.2020.00923 . Table 3 reports academic and social adjustment, but its **ADHD/LD group is combined**; use only as secondary context, not ADHD-only proof.
+- Kim et al. (2015), *Social Network Analysis Reveals the Negative Effects of ADHD Symptoms on Friend-Based Student Networks*, https://pmc.ncbi.nlm.nih.gov/articles/PMC4642970/ . This is a study of **schoolchildren**, not university students; Table 2 includes social network scores for ADHD *high-risk* versus normal groups (n=57 vs 505). Optional social triangulation; respect age and diagnostic differences, multiple testing, and check table inconsistencies when independently recomputing statistics.
+- Baczewski et al. (2022), *Adjustment Across the First College Year: A Matched Comparison of Autistic, ADHD, and Neurotypical Students*, https://doi.org/10.1089/aut.2021.0012 . This study reports that several adjusted group outcomes were **not significantly different**. Include qualifying/contrary findings so the conclusion is balanced.
+- My previously created files might be present: `ADHD_Support_Kazakhstan_revised(1).pptx`, `ADHD_Support_Kazakhstan_revised_v3.pptx`, `Codex_ADHD_Presentation_Build_Brief.md`. Inspect them if available and extract their references, but verify against original sources rather than treating slides as data.
+
+## Execution requirements
+
+1. **Discover and authenticate data provenance.** Inspect the repository for existing CSV/XLSX/TSV, data dictionaries, README, references, and presentation notes; record a manifest with exact source, URL/DOI, publication year, access date, sheet/file names, relevant columns, scale directions, unit of observation, data availability, study population and limitations. Download openly available data only where terms allow. If the South African download fails, do not stop the whole analysis: run the Israel summary-statistic tests and clearly mark the South African section pending raw data. Do not fabricate data. Look for additional credible, citable **Kazakhstan** student-level datasets only if needed and accessible; report honestly if no comparable, valid data are found.
+
+2. **Validate and clean the raw data.** Parse workbooks robustly, inspect headers, types, missing codes, ranges, duplicates, joins, participant IDs, wave structure, and attrition. Verify ASRS subscale construction against the paper/codebook (do not guess reversed items), GPA scale and academic adjustment scoring. Save a reproducible data dictionary and a cleaning log; preserve original files unchanged. Never count repeated observations on the same participant as independent samples.
+
+3. **Descriptive statistics.** For each supported outcome and group (or ASRS variables for continuous associations), report N, missing N/%, mean, **sample** SD, median, Q1/Q3, IQR, minimum/maximum, skewness, and 95% mean CI where raw data exist. Report effect direction and sample attrition. For published summaries, only report the known N/mean/SD and derived valid statistics; explicitly mark median/IQR/outliers unavailable. Visualize raw distributions with histograms, box/violin plots and Q-Q plots; use honest mean + CI point plots for summary-only results (no synthetic scatter or violin plots).
+
+4. **Choose tests for the actual design.**
+   - For independent quantitative groups, use Welch's independent-samples t-test as the primary mean-comparison method; it does **not** require equal variances. With raw observations, inspect plots/outliers and run median-centered Levene/Brown-Forsythe for variance diagnostics, and normality diagnostics where informative; do not automatically discard a t-test just because a large-N Shapiro test is significant. If severely skewed, ordinal, small-N, or outlier-dominated, add an appropriate permutation/robust test or two-sided Mann–Whitney U sensitivity analysis, noting that Mann–Whitney tests distributions/stochastic ordering and is **not generally a test of median differences**. Explain agreement or disagreement.
+   - For a genuinely paired design use paired t-test or Wilcoxon signed-rank; for longitudinal repeated measures use an appropriate mixed-effects model or another justified repeated-measures approach. Do not use independent-samples tests on repeated rows.
+   - For South African ASRS vs academic outcomes, evaluate scatterplots and use Pearson r for approximately linear continuous association, Spearman rho as a rank-based sensitivity analysis where warranted, and multiple linear regression for GPA adjusted for pre-specified covariates (e.g. age, Grade 12 score, NBT), optionally comparing BDI-II/BAI/AUDIT as justified. Avoid interpreting concurrent measures causally. Explain missing-data handling and possible covariate collinearity.
+   - Chi-square or Fisher exact only for appropriate categorical outcomes; a z-test only if its actual requirements are met (e.g. valid population variance or a proportion problem), **not** as a trick to lower p-values.
+   - For published group summaries, Levene, Shapiro and individual-level Mann–Whitney are **not executable**; use analytical Welch test, confidence intervals, and effect sizes from summaries.
+
+5. **Statistical transparency.** For every test report the exact compared variables, population, group sizes, metric and units, test statistic, df when applicable, raw p-value, adjusted p-value, confidence interval, effect size (Hedges' g for group differences, r/rho for correlations; regression coefficient and R² for regressions), direction, assumption diagnostics and caveats. Use reproducible seed 42 for any bootstrap/permutation sampling, label exploratory analyses, and define the primary tests before inspecting their p-values. Correct the two primary Israeli tests by Holm. If the South African analysis has a distinct family of several pre-specified outcome tests, Holm-correct that family separately. Do not switch from two-sided to one-sided after inspecting results.
+
+6. **Implementation and output.** Build runnable Python code with `pandas`, `numpy`, `scipy`, `statsmodels`, `matplotlib`/`seaborn`, `openpyxl` if necessary, a minimal `requirements.txt`, clear commands in `README.md`, unit tests / numerical self-checks for Welch from published summaries, and scripts to regenerate every table/figure. Save outputs under `adhd_statistical_analysis/outputs/` (or a sensible equivalent):
+   - `source_manifest.md` and `data_dictionary.md`
+   - `descriptive_statistics.csv`, `statistical_tests.csv`, `analysis_notes.md`
+   - `academic_results.png`, `social_results.png` (and more plots only where justified)
+   - `ADHD_results_report.md` containing research questions, hypotheses, data/methods, compact tables, accurate significance decisions, limitations, full citations/links, and a concise paragraph suitable for an IMRaD Results section.
+
+7. **Final answer format.** Provide a two-row decision summary: academic and social hypothesis, effect/direction, raw and Holm p, confidence interval, whether supported, exact population/data source and limitations. Clearly separate **academic adjustment** from **objective GPA**. Indicate when evidence comes from a secondary analysis of published summaries. Give a short limitations paragraph about self-reported outcomes, nonrepresentative samples, COVID context, multiple testing, selection/attrition, associations not causality, and transferability to Kazakhstan. Include contrary findings, not just significant ones.
+
+Start by listing available files and a short analysis plan, then implement, run the full pipeline, validate the numerical results, and deliver the actual outputs. Do not stop after giving me a proposal unless an essential data file is inaccessible and you have already completed every part supported by available sources.

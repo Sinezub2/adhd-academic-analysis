@@ -1,0 +1,5 @@
+variable,n,shapiro_w,p_raw,p_adjusted,tukey_outlier_n,exclusion_rule,interpretation
+asrs_total,506,0.9940790348967246,0.04618391451698133,not applicable: diagnostic only,3,none,Large N and bounded scores; Shapiro does not determine test selection
+inattention,506,0.992398305987734,0.011185413436307468,not applicable: diagnostic only,1,none,Large N and bounded scores; Shapiro does not determine test selection
+hyperactivity,506,0.9866052526817167,0.00013291866158832882,not applicable: diagnostic only,7,none,Large N and bounded scores; Shapiro does not determine test selection
+aas_complete,488,0.9798896841748583,2.8396269014473473e-06,not applicable: diagnostic only,4,none,Large N and bounded scores; Shapiro does not determine test selection

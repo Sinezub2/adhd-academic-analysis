@@ -1,0 +1,26 @@
+{
+  "documented_inattention_complete_n": 488,
+  "documented_inattention_r": -0.2047480634032629,
+  "documented_inattention_p_raw": 5.119544575427539e-06,
+  "documented_inattention_p_holm_m3": 1.5358633726282616e-05,
+  "documented_total_asrs_r": -0.13859216904908664,
+  "documented_total_asrs_n": 488,
+  "documented_total_asrs_p_raw": 0.0021508544727478728,
+  "documented_total_asrs_p_holm_m3": 0.0043017089454957455,
+  "second_coefficient_assessment": "The correctly scored ASRS total association rounds to -0.14; this is a different exposure from inattention. The previous Holm p=.015 cannot be verified without the earlier family and code.",
+  "rejected_first_nine_sum_r": -0.16669142394465383,
+  "rejected_reason": "First nine ASRS items mix inattention and hyperactivity/impulsivity. Source specifies 1\u20134 and 7\u201311.",
+  "no_p_value_for_rejected_score": true,
+  "previous_claims": [
+    {
+      "r": -0.205,
+      "n": 488,
+      "p_raw": 5.12e-06
+    },
+    {
+      "r": -0.14,
+      "p_holm": 0.015
+    }
+  ],
+  "limitation": "No prior analysis script, full sample definition, adjustment family or presentation available; provenance of the second claim cannot be established."
+}

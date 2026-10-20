@@ -1,0 +1,89 @@
+[
+  {
+    "name": "figshare_metadata.json",
+    "url": "https://api.figshare.com/v2/articles/24906924",
+    "checked_at_utc": "2026-10-20T14:36:50.701214+00:00",
+    "status": "cached_preexisting",
+    "bytes": 6073,
+    "sha256": "cbbf4e76b1a9f00e632bcd4180ec5e0ba8a4862fb216bd27c3b318d2317b155f"
+  },
+  {
+    "name": "mohamad_2025.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11800717/",
+    "checked_at_utc": "2026-10-20T14:36:50.701377+00:00",
+    "status": "cached_preexisting",
+    "bytes": 397726,
+    "sha256": "9d1f46eccca3029918fc265fa838a196e65024bb0388399c35213e1cbb417e7a",
+    "readable_content": true
+  },
+  {
+    "name": "sarid_lipka_2023.html",
+    "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1172771/full",
+    "checked_at_utc": "2026-10-20T14:36:50.701431+00:00",
+    "status": "cached_preexisting",
+    "bytes": 1022194,
+    "sha256": "ce876964501ea3128a2ba2396e86749f68a718d2f0e42e724fd65542e92a9a98",
+    "readable_content": true
+  },
+  {
+    "name": "gormley.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6209537/",
+    "checked_at_utc": "2026-10-20T14:36:50.701491+00:00",
+    "status": "cached_preexisting",
+    "bytes": 266136,
+    "sha256": "acfbfa2e337ab13dd93ea1a9215ce5577f36f6fb436d71bdd1c69f7105129646",
+    "readable_content": true
+  },
+  {
+    "name": "lipka_2020.html",
+    "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2020.00923/full",
+    "checked_at_utc": "2026-10-20T14:36:50.701590+00:00",
+    "status": "cached_preexisting",
+    "bytes": 868159,
+    "sha256": "e082434efd501460e074096624c5c2b1684c07305c5c3c36a05f010730730921",
+    "readable_content": true
+  },
+  {
+    "name": "baczewski_2022.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8992914/",
+    "checked_at_utc": "2026-10-20T14:36:50.702243+00:00",
+    "status": "downloaded",
+    "bytes": 213940,
+    "sha256": "2faba0489b70ed9247fed82c412a3b48f11d913ff11fde3199baca01aea340de",
+    "readable_content": true
+  },
+  {
+    "name": "aas_author_appendix.html",
+    "url": "https://www.researchgate.net/publication/305617123_The_AAS_-_appendix",
+    "checked_at_utc": "2026-10-20T14:36:50.832116+00:00",
+    "status": "failed",
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "kazakhstan_mental_health.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11820214/",
+    "checked_at_utc": "2026-10-20T14:36:50.870588+00:00",
+    "status": "downloaded",
+    "bytes": 203103,
+    "sha256": "217317f539fa8412634616267fbbd51ccb85a01e8c45a8874ee66cc6c24448b3",
+    "readable_content": true
+  },
+  {
+    "name": "baczewski_crossref.json",
+    "url": "https://api.crossref.org/works/10.1089/aut.2021.0012",
+    "checked_at_utc": "2026-10-20T14:36:50.876513+00:00",
+    "status": "cached_preexisting",
+    "bytes": 11791,
+    "sha256": "14be9bdfacef5cdefdc81dbb5cc58ecb5b019369ec6a998f0eadd07e56e30aab"
+  },
+  {
+    "name": "Student Mental Health Article Data.xlsx",
+    "url": "https://ndownloader.figshare.com/files/43834113",
+    "checked_at_utc": "2026-10-20T14:36:52.751148+00:00",
+    "status": "cached_preexisting",
+    "bytes": 255537,
+    "sha256": "84373cad739c5e315fd7a94c0fc98627936d1a9291265fca0a71545f4d561c3a",
+    "md5": "bc660db1fb08d0abf743fce735073ffa",
+    "matches_publisher_md5": true
+  }
+]

@@ -8,3 +8,10 @@ __pycache__/
 .DS_Store
 .env
 .env.*
+.pytest_cache/
+.mplconfig/
+
+# Full publisher-page downloads are local caches; retain the attributed test fixture.
+/adhd_statistical_analysis/data/metadata/*.html
+/adhd_statistical_analysis/data/metadata/*.txt
+!/adhd_statistical_analysis/data/metadata/sarid_lipka_2023_table3.html
